@@ -1,3 +1,4 @@
+// Countdown Timer
 let timer = 60;
 const countdownElement = document.getElementById('timer');
 const interval = setInterval(() => {
@@ -10,6 +11,7 @@ const interval = setInterval(() => {
     }
 }, 1000);
 
+// Button Functionality
 function stopLeak() {
     clearInterval(interval);
     window.location.href = "https://apps.apple.com/us/app/safetunnel-vpn-fast-proxy/id6448643898";
